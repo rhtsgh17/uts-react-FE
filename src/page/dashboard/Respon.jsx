@@ -1,7 +1,6 @@
-/* eslint-disable react/jsx-no-duplicate-props */
 import React from "react";
-import { useNavigate } from 'react-router-dom';
-export default function Halaman() {
+import { useNavigate } from "react-router-dom";
+export default function Respon() {
   // const author = useSelector((state) => state.auth);
   const navigate = useNavigate();
 
@@ -14,7 +13,6 @@ export default function Halaman() {
     User: "",
     Laporan: "",
   });
-
 
   const handleChange = (e) => {
     setPayload((payload) => {
@@ -77,7 +75,7 @@ export default function Halaman() {
                 onChange={handleChange}
                 name="Dashboard"
                 onClick={() => {
-                  return navigate("/dashboard")}}
+                    return navigate("/dashboard")}}
               >
                 <option>Dashboard</option>
               </button>
@@ -87,7 +85,7 @@ export default function Halaman() {
                 onChange={handleChange}
                 name="Registrasi"
                 onClick={() => {
-                  return navigate("/registrasi")}}
+                    return navigate("/registrasi")}}
               >
                 <option value={""}>Registrasi</option>
               </button>
@@ -97,7 +95,7 @@ export default function Halaman() {
                 onChange={handleChange}
                 name="Pengaduan"
                 onClick={() => {
-                  return navigate("/pengaduan")}}
+                    return navigate("/pengaduan")}}
               >
                 <option value={""}>Pengaduan</option>
               </button>
@@ -107,7 +105,7 @@ export default function Halaman() {
                 onChange={handleChange}
                 name="Respon"
                 onClick={() => {
-                  return navigate("/respon")}}
+                    return navigate("/respon")}}
               >
                 <option value={""}>Respon</option>
               </button>
@@ -117,7 +115,7 @@ export default function Halaman() {
                 onChange={handleChange}
                 name="User"
                 onClick={() => {
-                  return navigate("/user")}}
+                    return navigate("/user")}}
               >
                 <option value={""}>User</option>
               </button>
@@ -127,7 +125,7 @@ export default function Halaman() {
                 onChange={handleChange}
                 name="Laporan"
                 onClick={() => {
-                  return navigate("/laporan")}}
+                    return navigate("/laporan")}}
               >
                 <option value={""}>Laporan</option>
               </button>
@@ -140,6 +138,30 @@ export default function Halaman() {
               <h1>Logout</h1>
               </button>
             </div>
+          </div>
+        </div>
+       <div className="flex">
+       <div className="">
+          <h2 className="text-orange-600 font-bold text-4xl ml-72 p-1 m-1">
+            Respon
+          </h2>
+        </div>
+        <div className="w-11 h-11 bg-gradient-to-l from-[#84cc16] via-[#84cc16] to-[#84cc16] text-white  ml-auto p-1 m-1">
+          <button className="font-bold text-3xl text-center m-0">
+            +
+          </button>
+        </div>
+       </div>
+        <div className="flex m-2">
+          <div className="w-17 h-14 bg-gradient-to-l from-[#2dd4bf] via-[#2dd4bf] to-[#2dd4bf] text-white  ml-auto p-1 m-1 ">
+            <button className="font-normal text-xl text-center m-3">
+              Edit
+            </button>
+          </div>
+          <div className="w-17 h-14 bg-gradient-to-l from-[#ef4444] via-[#ef4444] to-[#ef4444] text-white  ml-8 p-1 m-1 ">
+            <button className="font-normal text-xl text-center m-3">
+              hapus
+            </button>
           </div>
         </div>
       </div>
