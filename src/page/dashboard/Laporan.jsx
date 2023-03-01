@@ -152,18 +152,99 @@ export default function Laporan() {
           </button>
         </div>
        </div>
+       <div className="flex">
+          <div className="ml-80">Show</div>
+        </div>
+        <div className="flex mt-7">
+          <div className="ml-80">7</div>
+          <button className="ml-40 font-bold">v</button>
+        </div>
+        <div className="flex">
+          <div className="w-48 h-1 bg-black m-1 ml-80 mt-2"></div>
+        </div>
+        <div className="flex">
+          <div className="ml-80 mt-3">entries</div>
+        </div>
         <div className="flex m-2">
-          <div className="w-17 h-14 bg-gradient-to-l from-[#2dd4bf] via-[#2dd4bf] to-[#2dd4bf] text-white  ml-auto p-1 m-1 ">
-            <button className="font-normal text-xl text-center m-3">
-              Edit
-            </button>
+          <div className="font-bold text-xl text-center ml-80">
+            <h1> NO </h1>
           </div>
-          <div className="w-17 h-14 bg-gradient-to-l from-[#ef4444] via-[#ef4444] to-[#ef4444] text-white  ml-8 p-1 m-1 ">
+          <div className="font-bold text-xl text-center ml-16">
+            <h1> NIK Pelapor </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-8">
+            <h1> Nama Pelapor </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-8">
+            <h1> Nama Petugas</h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-8">
+            <h1> Tanggal Masuk </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-4">
+            <h1> Tanggal Ditanggapi </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-8">
+            <h1> Status </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-16">
+            <h1> Opsi </h1>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="w-screen h-1 bg-black m-1 ml-80"></div>
+        </div>
+        <div className="flex m-2">
+          <div className="ml-80">
+            <h1 className="font-normal text-xl text-center m-3"> 1</h1>
+          </div>
+          <div className="ml-12">
+            <h1 className="font-normal text-xl text-center m-3">
+              {" "}
+              1523475679880
+            </h1>
+          </div>
+          <div className="ml-4">
+            <h1 className="font-normal text-xl text-center m-3">
+              {" "}
+              Sugih Rohmat
+            </h1>
+          </div>
+          <div className="ml-4">
+            <h1 className="font-normal text-xl text-center m-3"> Fathan</h1>
+          </div>
+          <div className="ml-14">
+            <h1 className="font-normal text-xl text-center m-3"> 2023-03-17</h1>
+          </div>
+          <div className="ml-14">
+            <h1 className="font-normal text-xl text-center m-3"> 2023-03-17</h1>
+          </div>
+          <div className="ml-14">
+            <h1 className="font-normal text-xl text-center m-3"> Selesai</h1>
+          </div>
+          <div className="w-17 h-14 bg-gradient-to-l from-[#2dd4bf] via-[#2dd4bf] to-[#2dd4bf] text-white  ml-14 p-1 m-1 ">
             <button className="font-normal text-xl text-center m-3">
-              hapus
+              More
             </button>
           </div>
         </div>
+        <div className="flex">
+          <div className="w-screen h-1 bg-black m-1 ml-80"></div>
+        </div>
+      </div>
+      <div className="flex">
+          <div className="ml-80">
+          Menampilkan 1 hingga 1 dari 1 entri
+          </div>
+          <button className="ml-96">
+          Previous
+          </button>
+          <div className="ml-5 w-9 h-9 bg-slate-300 text-center font-bold items-center">
+            1
+          </div>
+          <button className="ml-5">
+          Next
+          </button>
       </div>
     </React.Fragment>
   );

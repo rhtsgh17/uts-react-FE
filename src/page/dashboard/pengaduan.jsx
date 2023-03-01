@@ -75,7 +75,8 @@ export default function Pengaduan() {
                 onChange={handleChange}
                 name="Dashboard"
                 onClick={() => {
-                    return navigate("/dashboard")}}
+                  return navigate("/dashboard");
+                }}
               >
                 <option>Dashboard</option>
               </button>
@@ -85,7 +86,8 @@ export default function Pengaduan() {
                 onChange={handleChange}
                 name="Registrasi"
                 onClick={() => {
-                    return navigate("/registrasi")}}
+                  return navigate("/registrasi");
+                }}
               >
                 <option value={""}>Registrasi</option>
               </button>
@@ -95,7 +97,8 @@ export default function Pengaduan() {
                 onChange={handleChange}
                 name="Pengaduan"
                 onClick={() => {
-                    return navigate("/pengaduan")}}
+                  return navigate("/pengaduan");
+                }}
               >
                 <option value={""}>Pengaduan</option>
               </button>
@@ -105,7 +108,8 @@ export default function Pengaduan() {
                 onChange={handleChange}
                 name="Respon"
                 onClick={() => {
-                    return navigate("/respon")}}
+                  return navigate("/respon");
+                }}
               >
                 <option value={""}>Respon</option>
               </button>
@@ -115,7 +119,8 @@ export default function Pengaduan() {
                 onChange={handleChange}
                 name="User"
                 onClick={() => {
-                    return navigate("/user")}}
+                  return navigate("/user");
+                }}
               >
                 <option value={""}>User</option>
               </button>
@@ -125,7 +130,8 @@ export default function Pengaduan() {
                 onChange={handleChange}
                 name="Laporan"
                 onClick={() => {
-                    return navigate("/laporan")}}
+                  return navigate("/laporan");
+                }}
               >
                 <option value={""}>Laporan</option>
               </button>
@@ -133,32 +139,107 @@ export default function Pengaduan() {
                 title="Logout"
                 className="w-36 h-10 bg-gradient-to-l from-[#D6ADDC] via-[#84cc16] to-[#2C5DD4] text-white rounded-md mt-5"
                 onClick={() => {
-                  return navigate("/login")}}
-              > 
-              <h1>Logout</h1>
+                  return navigate("/login");
+                }}
+              >
+                <h1>Logout</h1>
               </button>
             </div>
           </div>
         </div>
-       <div className="flex">
-       <div className="">
-          <h2 className="text-orange-600 font-bold text-4xl ml-72 p-1 m-1">
-            Pengaduan
-          </h2>
+        <div className="flex mt-2">
+          <div className="">
+            <h2 className="text-orange-600 font-bold text-4xl ml-72 p-1 m-1">
+              Pengaduan
+            </h2>
+          </div>
         </div>
-       </div>
+        <div className="flex">
+          <div className="ml-80">Show</div>
+        </div>
+        <div className="flex mt-7">
+          <div className="ml-80">7</div>
+          <button className="ml-40 font-bold">v</button>
+        </div>
+        <div className="flex">
+          <div className="w-48 h-1 bg-black m-1 ml-80 mt-2"></div>
+        </div>
+        <div className="flex">
+          <div className="ml-80 mt-3">entries</div>
+        </div>
         <div className="flex m-2">
-          <div className="w-17 h-14 bg-gradient-to-l from-[#2dd4bf] via-[#2dd4bf] to-[#2dd4bf] text-white  ml-auto p-1 m-1 ">
+          <div className="font-bold text-xl text-center ml-80">
+            <h1> NO </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-20">
+            <h1> NIK </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-52">
+            <h1> Nama </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-40">
+            <h1> Tanggal</h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-28">
+            <h1> Status </h1>
+          </div>
+          <div className="font-bold text-xl text-center ml-28">
+            <h1> Opsi </h1>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="w-screen h-1 bg-black m-1 ml-80"></div>
+        </div>
+        <div className="flex m-2">
+          <div className="ml-80">
+            <h1 className="font-normal text-xl text-center m-3"> 1</h1>
+          </div>
+          <div className="ml-12">
+            <h1 className="font-normal text-xl text-center m-3">
+              {" "}
+              1523475679880
+            </h1>
+          </div>
+          <div className="ml-28">
+            <h1 className="font-normal text-xl text-center m-3">
+              {" "}
+              Sugih Rohmat
+            </h1>
+          </div>
+          <div className="ml-16">
+            <h1 className="font-normal text-xl text-center m-3"> 2023-03-17</h1>
+          </div>
+          <div className="ml-12">
+            <h1 className="font-normal text-xl text-center m-3"> Selesai</h1>
+          </div>
+          <div className="w-17 h-14 bg-gradient-to-l from-[#2dd4bf] via-[#2dd4bf] to-[#2dd4bf] text-white  ml-20 p-1 m-1 ">
             <button className="font-normal text-xl text-center m-3">
-              MORE
+              More
             </button>
           </div>
           <div className="w-17 h-14 bg-gradient-to-l from-[#ef4444] via-[#ef4444] to-[#ef4444] text-white  ml-8 p-1 m-1 ">
             <button className="font-normal text-xl text-center m-3">
-              HAPUS
+              hapus
             </button>
           </div>
         </div>
+        <div className="flex">
+          <div className="w-screen h-1 bg-black m-1 ml-80"></div>
+        </div>
+      </div>
+      <div className="flex">
+          <div className="ml-80">
+          Menampilkan 1 hingga 1 dari 1 entri
+          </div>
+          <button className="ml-96">
+          Previous
+          </button>
+          <div className="ml-5 w-9 h-9 bg-slate-300 text-center font-bold">
+            1
+          </div>
+          <button className="ml-5">
+          Next
+          </button>
       </div>
     </React.Fragment>
   );

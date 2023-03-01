@@ -42,11 +42,11 @@ export default function Login() {
               className="w-full text-black py-3 my-3 bg-transparant  rounded-md p-4 border-b border-yellow outline-none focus:outline-none"
             />
           </div>
-          <div className=" flex flex-col p-3 justify-center items-end">
+          {/* <div className=" flex flex-col p-3 justify-center items-end">
             <p className="text-sm font-medium whitespace-nowrap cursor-pointer underline underline-offset-2">
               Forgot Password
             </p>
-          </div>
+          </div> */}
           <div className="w-full flex flex-col my-4">
             <button className="w-full text-white my-2 font-semibold bg-[#262626] rounded-md p-4 text-center flex items-center justify-center" onClick={() => {
                 return navigate("/halaman")}}>

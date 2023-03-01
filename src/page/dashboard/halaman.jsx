@@ -89,7 +89,7 @@ export default function Halaman() {
                 onClick={() => {
                   return navigate("/registrasi")}}
               >
-                <option value={""}>Registrasi</option>
+                <option>Registrasi</option>
               </button>
               <button
                 className="w-36 h-10 border-2 rounded-md border-[#9AB2DD] text-[#84cc16] mt-6"
