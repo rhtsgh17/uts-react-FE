@@ -68,11 +68,11 @@ export default function Halaman() {
           <div className="m-10 grid grid-cols-4 space-y-3 space-x-5 ">
             {/* <button onClick={getHandleProduk}>tombol</button> */}
           </div>
-          <div className="w-[15%] h-full border-4 border-[#84cc16] rounded-b-lg fixed flex justify-start m-1">
+          <div className="w-[15%] h-full border-4 border-[#84cc16] rounded-b-lg fixed flex justify-start m-1 bg-[#020102]">
             <div className="w-36 h-10 bg-gradient-to-l rounded-md mx-auto text-center">
               {/* <p className="text-white font-bold text-md">Filter</p> */}
               <button
-                className="w-36 h-10 border-2 rounded-md border-[#9AB2DD] text-[#84cc16] mt-6"
+                className="w-36 h-10 bg-gradient-to-l from-[#D6ADDC] via-[#84cc16] to-[#2C5DD4] text-white rounded-md mt-6"
                 // value={payload.Dashboard}
                 onChange={handleChange}
                 name="Dashboard"
@@ -82,7 +82,7 @@ export default function Halaman() {
                 <option>Dashboard</option>
               </button>
               <button
-                className="w-36 h-10 border-2 rounded-md border-[#9AB2DD] text-[#84cc16] mt-6"
+                className="w-36 h-10 bg-gradient-to-l from-[#D6ADDC] via-[#84cc16] to-[#2C5DD4] text-white rounded-md mt-6"
                 // value={payload.Registrasi}
                 onChange={handleChange}
                 name="Registrasi"
@@ -92,7 +92,7 @@ export default function Halaman() {
                 <option>Registrasi</option>
               </button>
               <button
-                className="w-36 h-10 border-2 rounded-md border-[#9AB2DD] text-[#84cc16] mt-6"
+                className="w-36 h-10 bg-gradient-to-l from-[#D6ADDC] via-[#84cc16] to-[#2C5DD4] text-white rounded-md mt-6"
                 // value={payload.Pengaduan}
                 onChange={handleChange}
                 name="Pengaduan"
@@ -102,7 +102,7 @@ export default function Halaman() {
                 <option value={""}>Pengaduan</option>
               </button>
               <button
-                className="w-36 h-10 border-2 rounded-md border-[#9AB2DD] text-[#84cc16] mt-6"
+                className="w-36 h-10 bg-gradient-to-l from-[#D6ADDC] via-[#84cc16] to-[#2C5DD4] text-white rounded-md mt-6"
                 // value={payload.Respon}
                 onChange={handleChange}
                 name="Respon"
@@ -112,7 +112,7 @@ export default function Halaman() {
                 <option value={""}>Respon</option>
               </button>
               <button
-                className="w-36 h-10 border-2 rounded-md border-[#9AB2DD] text-[#84cc16] mt-6"
+                className="w-36 h-10 bg-gradient-to-l from-[#D6ADDC] via-[#84cc16] to-[#2C5DD4] text-white rounded-md mt-6"
                 // value={payload.User}
                 onChange={handleChange}
                 name="User"
@@ -122,7 +122,7 @@ export default function Halaman() {
                 <option value={""}>User</option>
               </button>
               <button
-                className="w-36 h-10 border-2 rounded-md border-[#9AB2DD] text-[#84cc16] mt-6"
+                className="w-36 h-10 bg-gradient-to-l from-[#D6ADDC] via-[#84cc16] to-[#2C5DD4] text-white rounded-md mt-6"
                 // value={payload.Laporan}
                 onChange={handleChange}
                 name="Laporan"
